@@ -33,7 +33,7 @@ brew install wget curl tree ctags hub ssh-copy-id keychain zsh vim tmux
 echo "Installing Databases..."
 brew install mysql redis
 
-echo "Installing WebServers..."
+echo "Installing Web Servers..."
 brew install nginx jetty8
 
 echo "Installing Programming Environments..."
