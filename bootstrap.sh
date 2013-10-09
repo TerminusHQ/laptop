@@ -18,6 +18,9 @@ echo "\n# recommended by brew doctor" >> ~/.zshrc
 echo "export PATH='/usr/local/bin:$PATH'\n" >> ~/.zshrc
 source ~/.zshrc
 
+echo "Installing Homebrew Versions..."
+brew tap homebrew/versions
+
 echo "Installing Git..."
 brew install git
 
@@ -25,8 +28,8 @@ brew update
 
 echo "Installing Build Essentials..."
 brew install readline openssl coreutils
-brew link openssl
-brew link readline
+brew link --force openssl
+brew link --force readline
 
 echo "Installing Handy Tools..."
 brew install wget curl tree ctags hub ssh-copy-id keychain zsh vim tmux
@@ -42,6 +45,8 @@ brew install sbt scala node
 
 echo "Installing RVM and Ruby..."
 \curl -L https://get.rvm.io | bash -s stable --ruby
+source $HOME/.rvm/scripts/rvm
+rvm use default --default
 gem update --system
 gem install bundler
 
@@ -50,4 +55,5 @@ brew tap phinze/homebrew-cask
 brew install brew-cask
 
 echo "Installing Essential Applications with Cask..."
-brew cask install alfred google-chrome virtualbox vagrant macvim textmate iterm2 dropbox droplr intellij-community
+brew cask install google-chrome virtualbox vagrant macvim textmate iterm2 dropbox droplr intellij-community alfred
+brew cask alfred link
