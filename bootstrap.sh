@@ -55,5 +55,5 @@ brew tap phinze/homebrew-cask
 brew install brew-cask
 
 echo "Installing Essential Applications with Cask..."
-brew cask install google-chrome virtualbox vagrant macvim textmate iterm2 dropbox droplr intellij-community alfred
+brew cask install google-chrome virtualbox vagrant macvim textmate iterm2 dropbox droplr intellij-community sequel-pro alfred
 brew cask alfred link
