@@ -10,7 +10,7 @@ fi
 
 if [[ ! -x $(/usr/bin/which -s brew) ]]; then
   echo "Installing Homebrew..."
-  ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+  ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
 fi
 
 echo "Put Homebrew location earlier in PATH ..."
