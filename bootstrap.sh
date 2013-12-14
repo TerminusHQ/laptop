@@ -41,7 +41,7 @@ echo "Installing Web Servers..."
 brew install nginx jetty8
 
 echo "Installing Programming Environments..."
-brew install sbt scala node
+brew install maven sbt scala node
 
 echo "Installing RVM and Ruby..."
 \curl -L https://get.rvm.io | bash -s stable --ruby
