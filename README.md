@@ -13,4 +13,4 @@ Requirements
 Install
 -------
 
-`zsh <(curl -s https://raw.github.com/TerminusHQ/laptop/master/bootstrap.sh)`
+`zsh <(curl -sL https://raw.github.com/TerminusHQ/laptop/master/bootstrap.sh)`
