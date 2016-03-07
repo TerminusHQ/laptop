@@ -14,11 +14,3 @@ Install
 -------
 
 `zsh <(curl -sL https://raw.github.com/TerminusHQ/laptop/master/bootstrap.sh)`
-
-
-Extras
-------
-
-1) Install Java 6 on Mavericks or Yosemite
-
-`wget http://support.apple.com/downloads/DL1572/en_US/JavaForOSX2014-001.dmg`

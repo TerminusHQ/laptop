@@ -38,7 +38,7 @@ echo "Installing Databases..."
 brew install mysql redis
 
 echo "Installing Web Servers..."
-brew install nginx jetty8
+brew install nginx jetty
 
 echo "Installing Programming Environments..."
 brew install maven sbt scala node
